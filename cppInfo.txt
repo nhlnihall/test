@@ -1,0 +1,105 @@
+General configuration for OpenCV 2.4.9.1 =====================================
+  Version control:               unknown
+
+  Platform:
+    Host:                        Linux 4.9.0-0.bpo.2-arm64 aarch64
+    CMake:                       3.7.2
+    CMake generator:             Unix Makefiles
+    CMake build tool:            /usr/bin/make
+    Configuration:               Release
+
+  C/C++:
+    Built as dynamic libs?:      YES
+    C++ Compiler:                /usr/bin/c++  (ver 6.3.0)
+    C++ flags (Release):         -g -O2 -fdebug-prefix-map=/build/opencv-K_9ebB/opencv-2.4.9.1+dfsg1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -g -O2 -fdebug-prefix-map=/build/opencv-K_9ebB/opencv-2.4.9.1+dfsg1=. -fstack-protector-strong -Wformat -Werror=format-security  -DNDEBUG
+    C++ flags (Debug):           -g -O2 -fdebug-prefix-map=/build/opencv-K_9ebB/opencv-2.4.9.1+dfsg1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -g  -O0 -DDEBUG -D_DEBUG
+    C Compiler:                  /usr/bin/cc
+    C flags (Release):           -g -O2 -fdebug-prefix-map=/build/opencv-K_9ebB/opencv-2.4.9.1+dfsg1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -g -O2 -fdebug-prefix-map=/build/opencv-K_9ebB/opencv-2.4.9.1+dfsg1=. -fstack-protector-strong -Wformat -Werror=format-security  -DNDEBUG
+    C flags (Debug):             -g -O2 -fdebug-prefix-map=/build/opencv-K_9ebB/opencv-2.4.9.1+dfsg1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -g  -O0 -DDEBUG -D_DEBUG
+    Linker flags (Release):      -Wl,-z,relro -Wl,-z,now -Wl,-z,relro -Wl,-z,now
+    Linker flags (Debug):        -Wl,-z,relro -Wl,-z,now
+    Precompiled headers:         NO
+
+  OpenCV modules:
+    To be built:                 core flann imgproc highgui features2d calib3d ml objdetect video contrib legacy photo gpu java ocl python stitching superres ts videostab
+    Disabled:                    world
+    Disabled by dependency:      -
+    Unavailable:                 androidcamera dynamicuda viz
+
+  GUI: 
+    QT:                          NO
+    GTK+ 2.x:                    YES (ver 2.24.31)
+    GThread :                    YES (ver 2.50.3)
+    GtkGlExt:                    NO
+    OpenGL support:              NO
+    VTK support:                 NO
+
+  Media I/O: 
+    ZLib:                        /usr/lib/aarch64-linux-gnu/libz.so (ver 1.2.8)
+    JPEG:                        /usr/lib/aarch64-linux-gnu/libjpeg.so (ver )
+    PNG:                         /usr/lib/aarch64-linux-gnu/libpng.so (ver 1.6.28)
+    TIFF:                        /usr/lib/aarch64-linux-gnu/libtiff.so (ver 42 - 4.0.7)
+    JPEG 2000:                   NO
+    OpenEXR:                     /usr/lib/aarch64-linux-gnu/libImath.so /usr/lib/aarch64-linux-gnu/libIlmImf.so /usr/lib/aarch64-linux-gnu/libIex.so /usr/lib/aarch64-linux-gnu/libHalf.so /usr/lib/aarch64-linux-gnu/libIlmThread.so (ver 2.2.0)
+
+  Video I/O:
+    DC1394 1.x:                  NO
+    DC1394 2.x:                  YES (ver 2.2.5)
+    FFMPEG:                      YES
+      codec:                     YES (ver 57.64.101)
+      format:                    YES (ver 57.56.101)
+      util:                      YES (ver 55.34.101)
+      swscale:                   YES (ver 4.2.100)
+      gentoo-style:              YES
+    GStreamer:                   NO
+    OpenNI:                      NO
+    OpenNI PrimeSensor Modules:  NO
+    PvAPI:                       NO
+    GigEVisionSDK:               NO
+    UniCap:                      NO
+    UniCap ucil:                 NO
+    V4L/V4L2:                    Using libv4l (ver 1.12.3)
+    XIMEA:                       NO
+    Xine:                        NO
+
+  Other third-party libraries:
+    Use IPP:                     NO
+    Use Eigen:                   YES (ver 3.3.2)
+    Use TBB:                     NO
+    Use OpenMP:                  NO
+    Use GCD                      NO
+    Use Concurrency              NO
+    Use C=:                      NO
+    Use Cuda:                    NO
+    Use OpenCL:                  YES
+
+  OpenCL:
+    Version:                     dynamic
+    Use AMD FFT:                 NO
+    Use AMD BLAS:                NO
+
+  Python:
+    Interpreter:                 /usr/bin/python2 (ver 2.7.13)
+    Libraries:                   /usr/lib/aarch64-linux-gnu/libpython2.7.so (ver 2.7.13)
+    numpy:                       /usr/lib/python2.7/dist-packages/numpy/core/include (ver 1.12.0)
+    packages path:               lib/python2.7/dist-packages
+
+  Java:
+    ant:                         /usr/bin/ant (ver 1.9.9)
+    JNI:                         /usr/lib/jvm/default-java/include /usr/lib/jvm/default-java/include/linux /usr/lib/jvm/default-java/include
+    Java tests:                  NO
+
+  Documentation:
+    Build Documentation:         YES
+    Sphinx:                      /usr/bin/sphinx-build (ver (unknown version))
+    PdfLaTeX compiler:           /usr/bin/pdflatex
+
+  Tests and samples:
+    Tests:                       NO
+    Performance tests:           YES
+    C/C++ Examples:              YES
+
+  Install path:                  /usr
+
+  cvconfig.h is in:              /build/opencv-K_9ebB/opencv-2.4.9.1+dfsg1/obj-aarch64-linux-gnu
+-----------------------------------------------------------------
